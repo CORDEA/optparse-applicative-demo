@@ -19,10 +19,6 @@ module Main where
 import Options.Applicative
 import Data.Monoid
 
-data Args = Args
-    Command
-    deriving Show
-
 data Command
     = Init InitOpts
     | Commit CommitOpts
